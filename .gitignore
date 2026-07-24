@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets (never commit these)
+.env
+.env.*
+*.local
+secrets/
+credentials/
+*.pem
+*.key
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Never commit raw workflow exports (may contain infra IDs / tokens)
+*.workflow.json
+workflow-export*.json
